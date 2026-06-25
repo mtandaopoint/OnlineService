@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MTANDAO POINT | Online Services</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --primary:#1d6ef2;
+    --dark:#0f172a;
+    --light:#f8fafc;
+    --white:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:var(--light);
+    color:var(--dark);
+    line-height:1.6;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px 20px;
+    background:
+    linear-gradient(rgba(255,255,255,.95),
+    rgba(255,255,255,.95));
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.logo{
+    width:140px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.hero h1 span{
+    color:var(--primary);
+}
+
+.tagline{
+    font-size:1.2rem;
+    color:var(--primary);
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:30px;
+    color:#475569;
+}
+
+.badge{
+    display:inline-block;
+    background:var(--primary);
+    color:white;
+    padding:12px 25px;
+    border-radius:50px;
+    font-weight:600;
+    margin-bottom:35px;
+}
+
+.cta{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.btn-primary{
+    background:var(--primary);
+    color:white;
+}
+
+.btn-whatsapp{
+    background:#25D366;
+    color:white;
+}
+
+/* SERVICES */
+
+.services{
+    padding:80px 20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2.2rem;
+}
+
+.section-title p{
+    color:#64748b;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.icon{
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+.card h3{
+    font-size:1.05rem;
+}
+
+/* CONTACT */
+
+.contact{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.contact h2{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.phone{
+    font-size:2rem;
+    font-weight:700;
+    margin:20px 0;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0f172a;
+    color:white;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.section-title h2{
+    font-size:1.8rem;
+}
+
+.phone{
+    font-size:1.5rem;
+}
+
+.logo{
+    width:110px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<!-- Replace logo.png with your logo -->
+<img src="LOGO1.png" alt="MTANDAO POINT" class="logo">
+
+<h1>MTANDAO <span>POINT</span></h1>
+
+<div class="tagline">
+Kwa Ajili Yako
+</div>
+
+<p>
+Fast, reliable and secure online services.
+Get assistance with applications, registrations and verifications
+within minutes.
+</p>
+
+<div class="badge">
+⚡ Service Delivery in 5–10 Minutes
+</div>
+
+<div class="cta">
+<a href="#services" class="btn btn-primary">View Services</a>
+
+<a href="https://wa.me/255789597292"
+class="btn btn-whatsapp">
+WhatsApp Us
+</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
+<div class="section-title">
+<h2>Our Services</h2>
+<p>Professional Online Assistance</p>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<div class="icon">📄</div>
+<h3>New Certificate Registration</h3>
+</div>
+
+<div class="card">
+<div class="icon">🔄</div>
+<h3>Certificate Renewal</h3>
+</div>
+
+<div class="card">
+<div class="icon">✅</div>
+<h3>Certificate Verification</h3>
+</div>
+
+<div class="card">
+<div class="icon">🆔</div>
+<h3>TIN Number & Certificate</h3>
+</div>
+
+<div class="card">
+<div class="icon">🎓</div>
+<h3>University Application</h3>
+</div>
+
+<div class="card">
+<div class="icon">📧</div>
+<h3>Email Creation</h3>
+</div>
+
+<div class="card">
+<div class="icon">💰</div>
+<h3>HESLB Application</h3>
+</div>
+
+<div class="card">
+<div class="icon">🛂</div>
+<h3>Passport Application</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<h2>Need Assistance?</h2>
+
+<p>Contact MTANDAO POINT today.</p>
+
+<div class="phone">
+📞 0789 597 292
+</div>
+
+<a href="https://wa.me/255789597292"
+class="btn btn-whatsapp">
+Chat on WhatsApp
+</a>
+
+</section>
+
+<footer>
+
+<p><strong>MTANDAO POINT</strong></p>
+<p>Kwa Ajili Yako</p>
+
+</footer>
+
+</body>
+</html>
